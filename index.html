@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | Intro component with sign up form</title>
+    <link rel="stylesheet" href="style.css" />
+    
+  </head>
+  <body>
+    <main>
+      <div class="headline" role="text"><h1>Learn to code by watching others</h1>
+      <p class="white">
+        See how experienced developers solve problems in real-time. Watching
+        scripted tutorials is great, but understanding how developers think is
+        invaluable.
+      </p></div>
+      
+      <div class="form" role="form">
+        <div class="try" role="text">
+        <span class="bold">Try it free 7 days</span> then $20/mo. thereafter
+      </div>
+      <form  id="myForm" action="/" >
+        <input type="text" id="fname" name="fname" placeholder="First Name"   />
+        <img src="./images/icon-error.svg" alt="" width="20px" height="20px" id="fnmErrImg">
+        <span id="fnmErr">First Name cannot be empty</span>
+        <input type="text" id="lname" name="lname" placeholder="Last Name"  />
+        <img src="./images/icon-error.svg" alt="" width="20px" height="20px" id="lnmErrImg">
+        <span id="lnmErr">Last Name cannot be empty</span>
+        
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Email Address" 
+        /> 
+        <img src="./images/icon-error.svg" alt="" width="20px" height="20px" id="emlErrImg"><span id="emlErr">Looks like this is not an email</span>
+        <input
+          type="password"
+          id="password"
+          name="password"
+          placeholder="Password"
+        />
+        <img src="./images/icon-error.svg" alt="" width="20px" height="20px" id="passErrImg"> <span id="passErr">Password cannot be empty</span>
+        <button class="form__btn"> Claim your free trial </button>
+        <!-- <input type="submit" value="Claim your free trial" class="form__btn" /> -->
+        <p class="form__text">
+          By clicking the button, you are agreeing to our
+          <a href="#">Terms and Services</a>
+        </p>
+      </form>
+      </div>
+      
+    </main>
+    <script src="./script.js"></script>
+
+    <footer>
+
+      </p>
+    </footer>
+  </body>
+</html>

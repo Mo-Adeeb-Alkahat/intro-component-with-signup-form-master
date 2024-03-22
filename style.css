@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url("./images/bg-intro-mobile.png") no-repeat;
+  background-color: hsl(0, 100%, 74%);
+
+  font-family: "Poppins";
+  min-height: 100vh;
+}
+
+main {
+  padding: 2rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+}
+
+h1 {
+  color: white;
+}
+
+.white {
+  color: white;
+}
+
+.try {
+  margin-top: 2rem;
+  font-size: 14px;
+  padding: 1rem 4rem;
+  background-color: hsl(248, 32%, 49%);
+  color: white;
+  border-radius: 8px;
+  box-shadow: 0px 6px hsla(0, 0%, 0%, 0.234);
+}
+.bold {
+  font-weight: 700;
+}
+
+form {
+  margin-top: 1rem;
+  border-radius: 8px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  box-shadow: 0px 6px hsla(0, 0%, 0%, 0.234);
+}
+
+input {
+  margin-top: 1rem;
+  padding: 1rem;
+  border-radius: 4px;
+  border-style: solid;
+  border-color: hsl(0, 0%, 90%);
+}
+
+.form__btn {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-family: inherit;
+  font-size: 1rem;
+  background-color: hsl(154, 59%, 51%);
+  color: white;
+  font-weight: 600;
+  padding: 1rem;
+  border-radius: 4px;
+  border-style: solid;
+  border-color: hsl(0, 0%, 90%);
+}
+
+.form__text {
+  font-size: 0.6rem;
+  color: hsl(0, 0%, 50%);
+}
+
+a,
+a:visited {
+  text-decoration: none;
+  color: hsl(0, 100%, 74%);
+  font-weight: 700;
+}
+
+a:hover,
+a:focus {
+  color: hsl(0, 100%, 85%);
+}
+.headline {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+}
+
+@media screen and (min-width: 1023px) {
+  body {
+    background: url("./images/bg-intro-desktop.png") no-repeat;
+    background-color: hsl(0, 100%, 74%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  main {
+    flex-direction: row;
+  }
+
+  .form {
+    padding-left: 0rem;
+    padding-right: 7.5rem;
+    min-width: 50%;
+  }
+
+  .headline {
+    padding-left: 7.5rem;
+    padding-right: 0rem;
+    text-align: left;
+  }
+
+  .headline h1 {
+    font-size: 3rem;
+    width: 18ch;
+  }
+
+  .headline p {
+    width: 50ch;
+  }
+
+  form {
+    padding: 2rem;
+  }
+}
+
+.error {
+  border-color: hsl(0, 100%, 74%);
+}
+
+form span {
+  margin-top: 0rem;
+  font-size: 10px;
+  font-weight: 600;
+  color: hsl(0, 100%, 74%);
+  text-align: right;
+  margin-bottom: 0.5rem;
+  display: none;
+}
+
+img {
+  margin: 0rem;
+  margin-right: 1rem;
+
+  justify-self: end;
+  align-self: end;
+  transform: translateY(-38px);
+  display: none;
+}
