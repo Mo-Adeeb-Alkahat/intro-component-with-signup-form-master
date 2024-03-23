@@ -105,7 +105,7 @@ a:focus {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 1rem;
+  gap: 0rem;
 }
 
 @media screen and (min-width: 1023px) {
@@ -157,7 +157,7 @@ form span {
   font-weight: 600;
   color: hsl(0, 100%, 74%);
   text-align: right;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0rem;
   display: none;
 }
 
@@ -167,6 +167,6 @@ img {
 
   justify-self: end;
   align-self: end;
-  transform: translateY(-38px);
+  transform: translateY(-50px);
   display: none;
 }
