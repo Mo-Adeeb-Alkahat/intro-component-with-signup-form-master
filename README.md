@@ -29,7 +29,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [solution URL](https://github.com/AdeebAlk/intro-component-with-signup-form-master)
-- Live Site URL: [live site URL](https://adeebalk.github.io/intro-component-with-signup-form-master/)
+- Live Site URL: [live site URL](https://Mo-Adeeb-Alkahat.github.io/intro-component-with-signup-form-master/)
 
 ## My process
 
